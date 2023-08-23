@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+#barre_inscription{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@font-face {
+    font-family: Aquatic;
+    src: url(/Polices/Aquatic-PersonalUse.otf) format(otf);
+   }
+   
+#fond{
+    position: absolute;
+    z-index: -1;
+    max-width: 1440px;
+}
+
+a{
+    cursor: pointer;
+}
+
+#tlogo{
+    font-size: 100px;
+    margin-bottom: 1%;
+    font-family: Aquatic;
+    color: #c9f0f8;
+}
+
+#tintro{
+    text-align: center;
+    font-family: quicksand,arial;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 40px;
+    margin: 0px 500px;
+    color: #012855;
+}
+
+#connexion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Start{
+    margin-top: 5%;
+    padding: 7% 50% 7% 0%;
+    font-size: 30px;
+    border-radius: 100px;
+    border: solid 5px #012855;
+}
+
+#Start[type=text]{
+    padding-left: 3%;
+}
+
+
+#animbtn{
+    position: absolute;
+    overflow: hidden;
+    top: 15px;
+    left: 220px;
+}
+
+#flechebtn{
+    transition: 1s;
+    max-width: 180px;
+
+}
+
+#flechebtn:hover{
+    transition: 1s;
+margin-left: 50%;
+}
+
+#cachemisere{
+    position: absolute;
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+@media screen and (max-width : 720px){
+
+#tlogo{
+    font-size: 80px;
+}
+
+#tintro{
+    font-size: 40px;
+    margin: 0px 120px;
+}
+}
+
+@media screen and (max-width : 576px){
+
+
+#tlogo{
+    font-size: 70px;
+}
+
+#tintro{
+    font-size: 30px;
+    margin: 0px 120px;
+}
+}
+@media screen and (max-width : 565px){
+
+
+    #tlogo{
+        font-size: 70px;
+    }
+    
+    #tintro{
+        font-size: 30px;
+        margin: 0px 100px;
+    }
+    
+
+}
