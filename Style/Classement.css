@@ -1,0 +1,170 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    
+}
+
+@font-face {
+    font-family: Aquatic;
+    src: url(/Polices/Aquatic-PersonalUse.otf) format(otf);
+   }
+   
+#fond{
+    position: absolute;
+    z-index: -1;
+    max-width: 1440px;
+}
+
+#Classement{
+    font-size: 50px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #c9f0f8;
+    margin-top: -0px;
+}
+
+#Position{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#scroll{
+    overflow-y: scroll;
+    max-height: 500px;
+}
+
+#scroll::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+  }
+  
+  #scroll::-webkit-scrollbar-track {
+    background: #c9f0f88c; /* color of the tracking area */
+  }
+  
+  #scroll::-webkit-scrollbar-thumb {
+    background-color: #012855d1; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+  }
+.Classement{
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(0, 0%, 0%, 0.75);
+    padding: -1px 100px;
+    margin: 0px auto;
+    margin-bottom: 1%;
+    border-radius: 0px 0px 100px 0px;
+}
+
+.Personne{
+    display: flex;
+    flex-direction: row;
+    margin-right: 500px;
+align-items: center;
+}
+
+.Points{
+    display: flex;
+    flex-direction: row;
+}
+
+.Position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Numero{
+    text-align: center;
+    width: 20px;
+    font-size: 30px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0px 0px;
+    padding: 40px 40px;
+}
+
+#or{
+    text-align: center;
+    width: 20px;
+    background: rgb(255,255,151);
+    background: linear-gradient(220deg, rgba(255,255,151,1) 0%, rgba(255,220,0,1) 40%, rgba(255,220,0,1) 60%, rgba(255,255,151,1) 100%);
+    font-size: 30px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0px 0px;
+    padding: 40px 40px;
+}
+
+#argent{
+    text-align: center;
+    width: 20px;
+    background: rgb(207,207,207);
+    background: linear-gradient(220deg, rgba(207,207,207,1) 0%, rgba(128,128,128,1) 40%, rgba(128,128,128,1) 60%, rgba(207,207,207,1) 100%);
+    font-size: 30px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0px 0px;
+    padding: 40px 40px;
+}
+
+#bronze{
+    text-align: center;
+    width: 20px;
+    background: rgb(159,119,119);
+    background: linear-gradient(220deg, rgba(159,119,119,1) 0%, rgba(165,42,42,1) 40%, rgba(165,42,42,1) 60%, rgba(159,119,119,1) 100%);
+    font-size: 30px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #fff;
+    margin: 0px 0px;
+    padding: 40px 40px;
+}
+
+.texte{
+    width: 200px;
+    font-size: 30px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #ffff;
+    margin: 0px 0px;
+    padding: 40px 20px;
+}
+
+.score{
+    width: 80px;
+    font-size: 30px;
+    font-family: quicksand, arial;
+    font-weight: bolder;
+    color: #ffff;
+    margin: 0px 250px 0px 0px;
+    padding: 40px 20px;
+}
+
+#Accueil{
+font-size: 30px;
+font-family: quicksand, arial;
+font-weight: bolder;
+color: #c9f0f8;
+margin-left: 5%;
+text-decoration: none;
+}
+
+ @media screen and (max-width : 720px){
+ #Position {
+            position: absolute;
+            
+            }
+            }
+
+            @media screen and (max-width : 576px){
+            #Position {
+            position: absolute;
+            }
+            
+            }
