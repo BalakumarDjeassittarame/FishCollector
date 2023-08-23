@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/Jeu.css">
+    <link rel="stylesheet" href="https://use.typekit.net/dda2fdp.css">
+
+    <title>Clicker</title>
+    
+</head>
+<body onload="lancement()">
+    <div id="changefond">
+    <img id="fond" src="Images/Fond_ocean.jpg" alt="">
+</div>
+    <header>
+    <section id="score">
+<img id="bulles" ondragstart="return false" src="Images/Bulles.png">
+<p id="points"></p>
+</section>
+<a href="Classement.html" id="classement">Classement</a>
+</header>
+<aside>
+    <section id="onglets">
+        <a id="boutique" onclick="Ongletboutique()">Boutique</a>
+        <a id="Succes" onclick="Ongletsucces()">Succès</a>
+    </section>
+    <section id="shop">
+        <section id="position1">
+        <div class="objetverr">
+            <img class="imgobjet" src="Images/bonus1.png" alt="">
+            <p class="tobjet">Chips de tetard</p>
+        </div>
+    </section>
+    <section id="position2">
+        <div class="objetverr">
+            <img class="imgobjet" src="Images/bonus2.png" alt="">
+            <p class="tobjet">Algues sèches</p>
+        </div>
+    </section>
+        <section id="position3">
+        <div class="objetverr">
+            <img class="imgobjet" src="Images/bonus3.png" alt="">
+            <p class="tobjet">Chips de dent de requin</p>
+        </div>
+    </section>
+        <br>
+    </section>
+</aside>
+<section id="clicker">
+<img onclick="Click()" id="Poisson" src="Images/Poisson_1.png" ondragstart="return false" alt="Poisson">
+<img onclick="Click()" id="Poisson2" src="Images/Poisson2.png" ondragstart="return false" alt="Poisson">
+
+<div id="bubulle"></div>
+<div id="bubulle2"></div>
+<div id="bubulle3"></div>
+<div id="bubulle4"></div>
+<div id="bubulle5"></div>
+<div id="bubulle6"></div>
+<div id="bubulle7"></div>
+
+</section>
+
+<div class="skin1">
+    <img onclick="Skin1()" id="skin1" src="Images/fleche2.png">
+</div>
+
+<div class="skin2">
+    <img onclick="Skiin2()" id="skin2" src="Images/fleche.png">
+</div>
+
+</section>
+    <script src="JavaScript/Jeu.js"></script>
+</body>
